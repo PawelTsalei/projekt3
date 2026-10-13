@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bookman Old Style", serif;
+}
+body{ background-color: aliceblue;}
+header,footer{background-color: skyblue; text-align: center;
+padding: 1px;border-radius: 15px;}
+nav{width: 90%;text-align: center;background-color: aqua;}
+#lewa,#prawa{width: 45%;height: 640px;}
+aside{width: 10%;height: 700px; overflow: hidden;}
+aside img{width: 100%;height: auto;}
+main{display: flex;width: 100%;}
+#sub{display: flex; width: 100%;}
+#lewa{background-color: blue;}
+#prawa{background-color: blueviolet;}
+
+#gl{width: 100%;}
