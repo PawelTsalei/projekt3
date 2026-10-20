@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Bookman Old Style", serif;
+}
+body{ background-color: aliceblue;}
+header,footer{background-color: skyblue; text-align: center;
+padding: 10px;border-radius: 15px;}
+nav{width: 90%;text-align: center;}
+#lewa,#prawa{width: 45%;height: 640px;}
+aside{width: 10%;height: 700px; overflow: hidden;}
+aside img{width: 100%;}
+main{display: flex;width: 100%;}
+#sub{display: flex; width: 100%;}
+span{font-size: 200%; cursor: pointer;}
+#gl{width: 100%;}
+button{background-color: skyblue;width: 45%;border-radius: 15px;padding: 15px 40px 15px; margin: 3px 2% 3px;}
+label{margin: 3px;}
